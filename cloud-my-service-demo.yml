@@ -13,3 +13,6 @@ eureka:
   client:
     register-with-eureka: true
     fetch-registry: false
+    service-url:
+      defaultZone: http://configadmin:welcome2@localhost:8071/eureka
+      
